@@ -1,0 +1,35 @@
+.space-optimizer {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+}
+
+.analysis-item {
+    margin-bottom: 1.5rem;
+}
+
+.analysis-item h4 {
+    color: #666;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.analysis-item p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 0;
+}
+
+.form-range {
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+
+.progress {
+    height: 25px;
+}
+
+.progress-bar {
+    font-size: 0.9rem;
+    line-height: 25px;
+} 

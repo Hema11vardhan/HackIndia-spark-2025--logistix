@@ -1,0 +1,130 @@
+.navbar {
+  background-color: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px 20px;
+}
+
+.navbar-logo {
+  font-size: 24px;
+  font-weight: 700;
+  color: #4a6cf7;
+  text-decoration: none;
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-link {
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #4a6cf7;
+}
+
+.nav-btn {
+  background-color: #4a6cf7;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.nav-btn:hover {
+  background-color: #3a5ce5;
+}
+
+.nav-btn.logout {
+  background-color: #f44336;
+}
+
+.nav-btn.logout:hover {
+  background-color: #d32f2f;
+}
+
+.wallet-info {
+  background-color: #f5f7fa;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.wallet-address {
+  color: #666;
+  font-weight: 500;
+}
+
+.user-info {
+  background-color: #e3f2fd;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.username {
+  color: #1976d2;
+  font-weight: 500;
+}
+
+.network-btn {
+  background-color: #ff9800;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.3s;
+  font-size: 14px;
+}
+
+.network-btn:hover {
+  background-color: #f57c00;
+}
+
+@media (max-width: 768px) {
+  .navbar-container {
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .navbar-links {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .wallet-info,
+  .user-info {
+    order: -1;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .network-btn {
+    width: 100%;
+  }
+} 

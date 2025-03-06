@@ -1,0 +1,80 @@
+.network-warning {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff3cd;
+  color: #856404;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.warning-content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 500;
+}
+
+.warning-icon {
+  font-size: 20px;
+}
+
+.warning-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.switch-network-btn {
+  background-color: #856404;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.3s;
+}
+
+.switch-network-btn:hover {
+  background-color: #6d5303;
+}
+
+.get-eth-btn {
+  background-color: #4a6cf7;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.3s;
+}
+
+.get-eth-btn:hover {
+  background-color: #3a5ce5;
+}
+
+@media (max-width: 768px) {
+  .network-warning {
+    flex-direction: column;
+    padding: 10px;
+  }
+  
+  .warning-content {
+    margin-bottom: 10px;
+  }
+  
+  .warning-actions {
+    width: 100%;
+  }
+  
+  .switch-network-btn,
+  .get-eth-btn {
+    flex: 1;
+  }
+} 

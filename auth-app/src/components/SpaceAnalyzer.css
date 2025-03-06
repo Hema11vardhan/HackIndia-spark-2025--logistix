@@ -1,0 +1,14 @@
+.tokenize-btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 16px;
+}
+
+.tokenize-btn:hover {
+  background-color: #45a049;
+} 
